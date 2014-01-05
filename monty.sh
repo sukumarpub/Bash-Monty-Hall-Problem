@@ -2,7 +2,7 @@
 nochangeWonCount=0;
 changeWonCount=0;
 
-#paly this game 10000 times
+#play this game 10000 times
 for (( z = 0; z <= 10000; z++ ))
 do
 	prize=("goat" "goat" "goat")
