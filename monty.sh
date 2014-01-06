@@ -34,7 +34,7 @@ do
 		then
 			if [[ $k != $pickStay ]]
 			then			
-				pickswap=$k;
+				pickSwap=$k;
 			fi
 		fi
 	done
@@ -45,7 +45,7 @@ do
 		nochangeWonCount = $(( $nochangeWonCount + 1 ));
 	fi
 
-	if [[ $prizeRandom = $pickswap ]]
+	if [[ $prizeRandom = $pickSwap ]]
 	then
 		#echo "You have won the car.";
 		changeWonCount = $(( $changeWonCount + 1 ));
