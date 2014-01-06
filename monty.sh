@@ -56,7 +56,7 @@ done
 echo "*********************************************************************";
 echo "Results after playing 10000 times...";
 echo " ";
-echo "1.total wins while staying with the origianl choice $nochangeWonCount":
+echo "1.total wins while staying with the original choice $nochangeWonCount":
 echo " ";
 echo "2.total wins while changing the choice $changeWonCount":
 echo "*********************************************************************";
