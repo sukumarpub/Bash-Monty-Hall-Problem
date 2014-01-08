@@ -42,13 +42,13 @@ do
 	if [[ $prizeRandom = $pickStay ]]
 	then
 		#echo "You have won the car.";
-		nochangeWonCount = $(( $nochangeWonCount + 1 ));
+		nochangeWonCount=$(( $nochangeWonCount + 1 ));
 	fi
 
 	if [[ $prizeRandom = $pickSwap ]]
 	then
 		#echo "You have won the car.";
-		changeWonCount = $(( $changeWonCount + 1 ));
+		changeWonCount=$(( $changeWonCount + 1 ));
 	fi
 done
 
